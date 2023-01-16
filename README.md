@@ -13,9 +13,9 @@ It connects to _mongos_, gets shards list and then read data from one of the sec
  
 Utility should be installed and run from the instance, which has access to _mongos_ and to all secondaries replicas in sharded replicasets
 
-Use _mongos_backup.conf_ for configure utility (see [url]mongos_backup.conf[/url])
+Use _mongos_backup.conf_ for configure utility (see <mongos_backup.conf>)
 
-Run [url]mongos_backup_from_secondary.py[/url]
+Run <mongos_backup_from_secondary.py>
 
 Example:
 ```
